@@ -1,0 +1,33 @@
+export class Transaction
+{
+transactionId !: number;
+referenceNumber !: string;
+transactionDate !: Date;
+debitAmount !: number
+creditAmount !: number
+updatedBalance !: number;
+}
+
+export class Payee
+{
+payeeId !: number;
+contactNumber !: number;
+email !: string;
+benificiaryName !: string;
+beneficairyAccountNumber !: number;
+beneficiaryBankName !: string;
+beneficiaryBranchName !: string;
+beneficairyIFSCCode !: string;
+beneficairyLimit !: number;
+}
+
+export class Account
+{
+accountId !: number;
+accountNumber !: number;
+balance !: number;
+accountHolder !: string;
+contactNumber !: number;
+emailId !: string;
+accountType !: string;
+}
